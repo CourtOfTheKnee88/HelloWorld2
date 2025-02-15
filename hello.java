@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class hello {
     public static void main(String[] args) {
         System.out.println("Here ye, Here ye, important announcement");
@@ -9,5 +11,7 @@ public class hello {
         System.out.println("Hello Denise");
         System.out.println("Hello Ester");
 
+        LocalDate myDate = LocalDate.now();
+        System.out.println(myDate);
     }
 }

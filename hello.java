@@ -13,5 +13,8 @@ public class hello {
 
         LocalDate myDate = LocalDate.now();
         System.out.println(myDate);
+
+        System.out.println("Free memory (bytes): " + 
+        Runtime.getRuntime().freeMemory());
     }
 }
